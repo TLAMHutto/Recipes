@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
-    <link type="text/css" rel="stylesheet" href="./deviled.css">
+    <link type="text/css" rel="stylesheet" href="./crab.css">
     <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
@@ -14,54 +14,56 @@
     <script src="https://kit.fontawesome.com/76a22a6cf5.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="parent">
     <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">More Recipes</button>
         <div id="myDropdown" class="dropdown-content">
-          <a href="http://127.0.0.1:5500/crab%20cakes/crab.html">Crab Cakes</a>
-          <a href="http://127.0.0.1:5500/garlic/garlic.html">Garlic Bread</a>
-          <a href="http://127.0.0.1:5500/Food_App/index.html" target="_blank">Random</a>
+          <a href="../Deviled/deviled.html">Deviled Eggs</a>
+          <a href="../garlic/garlic.html">Garlic Bread</a>
+          <a href="../Food_App/index.html" target="_blank">Random</a>
         </div>
       </div>
-
+    </div>
     <div class="title"> 
-        <h1>Deviled Eggs</h1>
-        <img src="./deviled.jpg">
+        <h1>Crab Cakes</h1>
+        <img src="./crab.jpg">
     </div> 
     <div class="inger">
         <input type="checkbox" id="eggs" name="eggs" value="eggs">
-        <label for="egg"> 6 hard-boiled eggs </label><br>
+        <label for="egg"> 1 pound crab meat </label><br>
 
         <input type="checkbox" id="mayo" name="mayo" value="mayo">
-        <label for="mayo"> 2 tablespoons mayo</label><br>
+        <label for="mayo"> 1 egg</label><br>
 
         <input type="checkbox" id="sugar" name="sugar" value="sugar">
-        <label for="sugar"> 1 teaspoon white sugar</label><br>
+        <label for="sugar"> 2 tablespoons mayo</label><br>
 
         <input type="checkbox" id="vinegar" name="vinegar" value="vinegar">
-        <label for="vinegar"> 1 teaspoon white vinegar </label><br>
+        <label for="vinegar"> 1/2 teaspoon mustard </label><br>
 
         <input type="checkbox" id="mustard" name="mustard" value="mustard">
-        <label for="mustard"> 1 teaspoon mustard</label><br>
+        <label for="mustard"> 1 dash Worcestershire sauce</label><br>
 
         <input type="checkbox" id="salt" name="sugar" value="sugar">
-        <label for="sugar"> 1/2 teaspoon salt</label><br>
+        <label for="sugar"> salt and pepper to taste</label><br>
 
         <input type="checkbox" id="egg" name="eggs" value="eggs">
-        <label for="egg"> 1 tablespoon finely chopped onion </label><br>
+        <label for="egg"> 4 ounces buttery round crakers, crushed </label><br>
 
         <input type="checkbox" id="mayo" name="mayo" value="mayo">
-        <label for="mayo"> 1 tablespoon finely chopped celery</label><br>
-
-        <input type="checkbox" id="sugar" name="sugar" value="sugar">
-        <label for="sugar"> 1 pinch paprika, or to taste</label><br>
+        <label for="mayo"> 2 cups oil for frying, or as needed</label><br>
+        <h2>Directions</h2>
+        <div id="steps">
+            <ol>
+                <p class="step1"> Step 1</p>
+                <li>In a medium-size mixing bowl, combine crabmeat, egg, mayonnaise, mustard powder, Worcestershire sauce, and salt and pepper to taste.</li>
+                <p class="step2"> Step 2</p>
+                <li>In a large skillet, heat 1/4 inch of vegetable oil to a high heat. Roll heaping spoonfuls on the crab mixture in the crackers, then place the ball in the hot oil. Flatten lightly with a spatula so that the crab cake is 1/2 inch thick. Fry the crab cakes, flipping to ensure both sides get browned.</li>
+            </ol>
+        </div>
     </div>
-    <div class="steps">
-        <p>
-            Slice eggs in half lengthwise and remove yolks; set whites aside. Mash yolks with a fork in a small bowl. Stir in mayonnaise, sugar, vinegar, mustard, salt, onion, and celery; mix well. Stuff or pipe egg yolk mixture into egg whites. Sprinkle with paprika. Refrigerate until serving.
-        </p>
-    </div>
-    <!-- SOCIAL PANEL HTML -->
-    <div class="social-panel-container">
+     <!-- SOCIAL PANEL HTML -->
+     <div class="social-panel-container">
         <div class="social-panel">
           <p>Created with <i class="fa-solid fa-mug-saucer"></i> by
             <a href="#top">Keaton Hutto</a></p>
@@ -94,8 +96,9 @@
       <button class="floating-btn">
         Get in Touch
       </button>
-   <script src="./deviled.js">
+    <script src="./crab.js">
 
-   </script> 
+    </script>
+    
 </body>
 </html>
